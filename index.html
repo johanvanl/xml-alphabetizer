@@ -1,0 +1,32 @@
+<html>
+<h3>XML Alphabetizer</h3>
+<form action="/" method="post">
+    Specify whether you want the XML prettified or flattened,</br>and whether to sort the elements in ascending or descending order:
+    </br></br>
+    <table>
+    <tr>
+    <td>
+    <input type="radio" name="rad_group_out" value="rad_prettify" checked="checked">Prettify XML</br>
+    <input type="radio" name="rad_group_out" value="rad_flatten">Flatten XML</br>
+    </td>
+    <td>
+    <input type="radio" name="rad_group_sort" value="rad_asc" checked="checked">Ascending</br>
+    <input type="radio" name="rad_group_sort" value="rad_dec">Descending</br>
+    </td>
+    </tr>
+    </table>
+    </br>
+    If you want to sort a specific node by one of its attributes,</br>specify the node and its attribute, otherwise leave it blank:
+    </br></br>
+    <input type="text" name="inp_node" placeholder="Node"></br>
+    <input type="text" name="inp_attribute" placeholder="Attribute"></br>
+    </br>
+    <textarea name="ta_xml" rows="20" cols="60"></textarea>
+    </br>
+    <input type="submit" value="Submit">
+</form>
+</br></br>
+Created by <a href="https://github.com/liloboy/">liloboy</a>
+</br>
+This project can be found <a href="https://github.com/liloboy/xml-alphabetizer">here</a>
+</html>
